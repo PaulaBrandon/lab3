@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Seinfeld</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html"><img src="images/seinfeld_logo2.png" alt="Logo Seinfeld" /></a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        ><i class="fa fa-bars" style="font-size: 24px"></i
+      ></a>
+      <nav id="menu_bar" class="navbar">
+        <ul>
+          <li class="navbar_item"><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="personajes.html">Personajes</a>
+            <ul>
+              <li><a href="jerry.html">Jerry</a></li>
+              <li><a href="elaine.html">Elaine</a></li>
+              <li><a href="george.html">George</a></li>
+              <li><a href="kramer.html">Kramer</a></li>
+            </ul>
+          </li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="resenas.html">Reseñas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>RESEÑAS</h1>
+    <section class="resenas">
+      <article>
+        "Larry David y Jerry Seinfeld, los fundadores de la serie, destruyeron con astucia la idea de que el espectador
+        solo se enamora de villanos carismáticos, héroes apasionados o personajes benévolos. George, Elaine, Kramer y
+        Jerry no encajan en ninguna de esas etiquetas. Son simplemente personas miserables. La frase de Jorge Luis
+        Borges "no nos une el amor sino el espanto" se ha repetido hasta el cansancio, pero pocas veces describió tan
+        bien una situación como esta."<br /><br /><b>Maia Debowicz</b>
+      </article>
+    </section>
+    <footer class="footer">
+      <div>
+        <a href="#"><img src="images/redes/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="images/redes/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="images/redes/youtube.png" alt="Youtube" /></a>
+        <a href="#"><img src="images/redes/instagram.png" alt="Instagram" /></a>
+      </div>
+      <p>&copy; 2024. Página creada por Paula Brandon</p>
+    </footer>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("menu_bar")
+        console.log("ejecutando")
+        if (x.className === "") {
+          x.className += " responsive"
+        } else {
+          x.className = ""
+        }
+      }
+    </script>
+  </body>
+</html>

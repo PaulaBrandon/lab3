@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <title>Galería</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html"><img src="images/seinfeld_logo2.png" alt="Logo Seinfeld" /></a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        ><i class="fa fa-bars" style="font-size: 24px"></i
+      ></a>
+      <nav id="menu_bar" class="">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="personajes.html">Personajes</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="resenas.html">Reseñas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>GALERÍA</h1>
+      <article class="secundario galeria">
+        <a
+          class="example-image-link"
+          href="images/galeria/jerry-standup.jpg"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear con su gato."
+          ><img class="example-image" src="images/galeria/jerry-standup-min.jpg" alt="Buzz Lightyear con su gato"
+        /></a>
+        <a
+          class="example-image-link"
+          href="images/galeria/casa-jerry3.jpg"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear señalando su imagen en un espejo."
+          ><img
+            class="example-image"
+            src="images/galeria/casa-jerry3-min.jpg"
+            alt="Buzz Lightyear señalando su imagen en un espejo"
+        /></a>
+        <a
+          class="example-image-link"
+          href="images/galeria/kramer.png"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear volando"
+          ><img class="example-image" src="images/galeria/kramer-min.jpg" alt="Buzz Lightyear volando"
+        /></a>
+        <a
+          class="example-image-link"
+          href="images/galeria/The-Fusilli-Jerry.jpg"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear señalando su imagen en un espejo."
+          ><img
+            class="example-image"
+            src="images/galeria/The-Fusilli-Jerry-min.jpg"
+            alt="Buzz Lightyear señalando su imagen en un espejo"
+        /></a>
+        <a
+          class="example-image-link"
+          href="images/galeria/george-campera.jpg"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear volando"
+          ><img class="example-image" src="images/galeria/eleaine-maniqui-min.jpg" alt="Buzz Lightyear volando"
+        /></a>
+        <a
+          class="example-image-link"
+          href="images/galeria/george-padres.jpg"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear volando"
+          ><img class="example-image" src="images/galeria/george-padres-min.jpg" alt="Buzz Lightyear volando"
+        /></a>
+        <a
+          class="example-image-link"
+          href="images/galeria/eleaine-maniqui.png"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear volando"
+          ><img class="example-image" src="images/galeria/george-campera-min.jpg" alt="Buzz Lightyear volando"
+        /></a>
+        <a
+          class="example-image-link"
+          href="images/galeria/cafeteria3.jpg"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear volando"
+          ><img class="example-image" src="images/galeria/cafeteria3-min.jpg" alt="Buzz Lightyear volando"
+        /></a>
+
+        <a
+          class="example-image-link"
+          href="images/galeria/casa-jerry1.jpg"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear señalando su imagen en un espejo."
+          ><img
+            class="example-image"
+            src="images/galeria/casa-jerry1-min.jpg"
+            alt="Buzz Lightyear señalando su imagen en un espejo"
+        /></a>
+
+        <a
+          class="example-image-link"
+          href="images/galeria/seinfeld-edificios.jpg"
+          data-lightbox="Buzz"
+          data-title="Buzz Lightyear volando"
+          ><img class="example-image" src="images/galeria/seinfeld-edificios-min.jpg" alt="Buzz Lightyear volando"
+        /></a>
+      </article>
+    </section>
+    <footer class="footer">
+      <div>
+        <a href="#"><img src="images/redes/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="images/redes/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="images/redes/youtube.png" alt="Youtube" /></a>
+        <a href="#"><img src="images/redes/instagram.png" alt="Instagram" /></a>
+      </div>
+      <p>&copy; 2024. Página creada por Paula Brandon</p>
+    </footer>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("menu_bar")
+        if (x.className === "") {
+          x.className += " responsive"
+        } else {
+          x.className = ""
+        }
+      }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
