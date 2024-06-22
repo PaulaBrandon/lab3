@@ -258,6 +258,13 @@ div.pie_contacto span {
     z-index: 1;
     margin-top: 20px;
   }
+  .portada {
+    min-height: 72vh;
+  }
+  .portada div {
+    background-image: url(../images/seinfeld-edificios.jpg);
+    height: 400px;
+  }
   /* header div, */
   /* header a {
     flex: 1 0 50%;
@@ -287,6 +294,9 @@ div.pie_contacto span {
   nav.responsive ul li a {
     padding-right: 0;
   }
+  nav.responsive ul li ul {
+    display: none;
+  }
   section {
     max-width: 480px;
     width: 100%;
@@ -300,6 +310,13 @@ div.pie_contacto span {
   .secundario {
     margin-top: 1%;
     display: block;
+  }
+  .secundario.galeria {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
   }
   .secundario div {
     margin-right: auto;
@@ -315,11 +332,44 @@ div.pie_contacto span {
   h4 {
     font-size: 1rem;
   }
-  footer {
+  .resenas {
+    height: 65vh;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    /* height: 350px; */
+  }
+  .footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .footer img {
+    max-width: 2.5rem;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+  .form {
+    width: 90%;
+  }
+  div.pie_contacto {
+    right: 5%;
+  }
+
+  /*footer {
     height: 80px;
     justify-content: space-evenly;
   }
   footer img {
     max-width: 3rem;
   }
+    */
 }

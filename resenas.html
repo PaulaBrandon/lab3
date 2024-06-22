@@ -22,7 +22,7 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()"
         ><i class="fa fa-bars" style="font-size: 24px"></i
       ></a>
-      <nav id="menu_bar" class="navbar">
+      <nav id="menu_bar">
         <ul>
           <li class="navbar_item"><a href="index.html">Inicio</a></li>
           <li>
@@ -62,7 +62,6 @@
     <script type="text/javascript">
       function myFunction() {
         var x = document.getElementById("menu_bar")
-        console.log("ejecutando")
         if (x.className === "") {
           x.className += " responsive"
         } else {
