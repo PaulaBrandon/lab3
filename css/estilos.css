@@ -25,6 +25,9 @@ header {
   background-color: #475c81;
   /*background-color: #2f394b;*/
 }
+header img {
+  height: 85px;
+}
 nav ul {
   margin-top: 4%;
 }
@@ -83,6 +86,7 @@ section {
   margin-top: 4%;
   width: 100%;
   min-height: 85vh;
+  margin-bottom: 60px;
 }
 .portada div {
   height: 650px;
@@ -101,6 +105,7 @@ section {
   margin-top: 5%;
   display: flex;
   min-height: 60vh;
+  margin-bottom: 75px;
 }
 .secundario div {
   width: 33%;
@@ -123,6 +128,25 @@ section {
 }
 .galeria a img {
   margin-right: 0;
+}
+section.personajes {
+  margin-bottom: 120px;
+}
+.personajes article {
+  display: flex;
+  gap: 30px;
+  background-color: #394c69;
+  padding: 20px;
+}
+.personajes h1 {
+  margin-bottom: 30px;
+}
+.personajes img {
+  height: 290px;
+}
+.personajes p {
+  color: rgb(232, 232, 232);
+  font-size: larger;
 }
 h4 {
   font-size: 1.5rem;
@@ -372,4 +396,18 @@ div.pie_contacto span {
     max-width: 3rem;
   }
     */
+
+  .personajes article {
+    flex-direction: column;
+    background-color: #475c81;
+  }
+  .personajes h1 {
+    margin-bottom: 10px;
+  }
+  .personajes p {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    color: white;
+  }
 }

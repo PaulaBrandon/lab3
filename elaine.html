@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,46 +14,69 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/estilos.css" />
     <title>Jerry Seinfeld</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div>
-          <a href="index.html"><img src="images/seinfeld_logo2.png" alt="Logo Seinfeld" /></a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-        <nav id="menu_bar" class="navbar">
-          <ul>
-            <li class="navbar_item"><a href="index.html">Inicio</a></li>
-            <li>
-              <a href="personajes.html">Personajes</a>
-              <ul>
-                <li><a href="jerry.html">Jerry</a></li>
-                <li><a href="elaine.html">Elaine</a></li>
-                <li><a href="george.html">George</a></li>
-                <li><a href="kramer.html">Kramer</a></li>
-              </ul>
-            </li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="resenas.html">Reseñas</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section>
-        <article class="">
-          <div>
-            <!-- <img src="images/light_home_logo.png" alt="Seinfeld logo" /> -->
-            <!-- <h2>La historia del origen de Buzz Lightyear y sus aventuras hasta el infinito y más allá.</h2> -->
-          </div>
-        </article>
-        <footer class="footer">
-          <div>
-            <a href="#"><img src="images/redes/facebook.png" alt="Facebook" /></a>
-            <a href="#"><img src="images/redes/twitter.png" alt="Twitter" /></a>
-            <a href="#"><img src="images/redes/youtube.png" alt="Youtube" /></a>
-            <a href="#"><img src="images/redes/instagram.png" alt="Instagram" /></a>
-          </div>
-          <p>&copy; 2024. Página creada por Paula Brandon</p>
-        </footer>
-</body>
+      <div>
+        <a href="index.html"><img src="images/seinfeld_logo2.png" alt="Logo Seinfeld" /></a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      <nav id="menu_bar" class="navbar">
+        <ul>
+          <li class="navbar_item"><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="personajes.html">Personajes</a>
+            <ul>
+              <li><a href="jerry.html">Jerry</a></li>
+              <li><a href="elaine.html">Elaine</a></li>
+              <li><a href="george.html">George</a></li>
+              <li><a href="kramer.html">Kramer</a></li>
+            </ul>
+          </li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="resenas.html">Reseñas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="personajes">
+      <h1>ELAINE BENES</h1>
+      <article>
+        <img src="images/galeria/elaine-pag.jpg" alt="Kramer y retrato." />
+        <p>
+          Elaine Benes, interpretada por Julia Louis-Dreyfus, es una exnovia y amiga cercana de Jerry. <br />A lo largo
+          de la serie, Elaine trabaja en varios empleos, incluyendo en la editora de libros Pendant Publishing y más
+          tarde en el diseño de catálogos para J. Peterman. Elaine es conocida por su personalidad fuerte y segura de sí
+          misma, su franqueza y su sentido del humor mordaz. Es una mujer moderna e independiente que a menudo enfrenta
+          desafíos tanto en su vida profesional como personal. Elaine tiene una serie de relaciones amorosas complicadas
+          y a menudo hilarantes. Es propensa a encontrarse en situaciones incómodas y embarazosas, pero siempre muestra
+          una notable capacidad para recuperarse con ingenio y determinación. Sus relaciones con los otros personajes,
+          especialmente con Jerry, George y Kramer, son fundamentales para muchas de las tramas cómicas de la serie. A
+          pesar de sus defectos, Elaine es una amiga leal y sus interacciones con el grupo son a menudo el corazón de la
+          serie.
+        </p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <a href="#"><img src="images/redes/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="images/redes/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="images/redes/youtube.png" alt="Youtube" /></a>
+        <a href="#"><img src="images/redes/instagram.png" alt="Instagram" /></a>
+      </div>
+      <p>&copy; 2024. Página creada por Paula Brandon</p>
+    </footer>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("menu_bar")
+        if (x.className === "") {
+          x.className += " responsive"
+        } else {
+          x.className = ""
+        }
+      }
+    </script>
+  </body>
 </html>

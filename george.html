@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,46 +12,67 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/estilos.css" />
     <title>Jerry Seinfeld</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div>
-          <a href="index.html"><img src="images/seinfeld_logo2.png" alt="Logo Seinfeld" /></a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-        <nav id="menu_bar" class="navbar">
-          <ul>
-            <li class="navbar_item"><a href="index.html">Inicio</a></li>
-            <li>
-              <a href="personajes.html">Personajes</a>
-              <ul>
-                <li><a href="jerry.html">Jerry</a></li>
-                <li><a href="elaine.html">Elaine</a></li>
-                <li><a href="george.html">George</a></li>
-                <li><a href="kramer.html">Kramer</a></li>
-              </ul>
-            </li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="resenas.html">Reseñas</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section>
-        <article class="">
-          <div>
-            <!-- <img src="images/light_home_logo.png" alt="Seinfeld logo" /> -->
-            <!-- <h2>La historia del origen de Buzz Lightyear y sus aventuras hasta el infinito y más allá.</h2> -->
-          </div>
-        </article>
-        <footer class="footer">
-          <div>
-            <a href="#"><img src="images/redes/facebook.png" alt="Facebook" /></a>
-            <a href="#"><img src="images/redes/twitter.png" alt="Twitter" /></a>
-            <a href="#"><img src="images/redes/youtube.png" alt="Youtube" /></a>
-            <a href="#"><img src="images/redes/instagram.png" alt="Instagram" /></a>
-          </div>
-          <p>&copy; 2024. Página creada por Paula Brandon</p>
-        </footer>
-</body>
+      <div>
+        <a href="index.html"><img src="images/seinfeld_logo2.png" alt="Logo Seinfeld" /></a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      <nav id="menu_bar" class="navbar">
+        <ul>
+          <li class="navbar_item"><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="personajes.html">Personajes</a>
+            <ul>
+              <li><a href="jerry.html">Jerry</a></li>
+              <li><a href="elaine.html">Elaine</a></li>
+              <li><a href="george.html">George</a></li>
+              <li><a href="kramer.html">Kramer</a></li>
+            </ul>
+          </li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="resenas.html">Reseñas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="personajes">
+      <h1>GEORGE COSTANZA</h1>
+      <article>
+        <img src="images/galeria/george-pag.jpg" alt="Kramer y retrato." />
+        <p>
+          George Costanza, interpretado por Jason Alexander, es el mejor amigo de Jerry desde la infancia.<br />
+          George es un hombre inseguro, neurótico y propenso a la ansiedad. A lo largo de la serie, trabaja en varios
+          empleos y siempre parece estar en situaciones incómodas y problemáticas. Es conocido por su tendencia a
+          mentir, su pesimismo y su habilidad para meterse en problemas debido a sus propias malas decisiones. George
+          vive con sus padres durante gran parte de la serie, lo que añade una capa adicional de humor y tensión a su
+          vida. Sus relaciones románticas son desastrosas, y su falta de éxito en el amor y en su carrera es una fuente
+          constante de humor y frustración. A pesar de sus numerosos defectos, George es un personaje complejo y
+          profundamente humano. Su amistad con Jerry es una de las piedras angulares de la serie, y su dinámica con los
+          otros personajes, especialmente con Elaine y Kramer, proporciona muchas de las situaciones cómicas y
+          dramáticas en "Seinfeld".
+        </p>
+      </article>
+    </section>
+    <footer class="footer">
+      <div>
+        <a href="#"><img src="images/redes/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="images/redes/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="images/redes/youtube.png" alt="Youtube" /></a>
+        <a href="#"><img src="images/redes/instagram.png" alt="Instagram" /></a>
+      </div>
+      <p>&copy; 2024. Página creada por Paula Brandon</p>
+    </footer>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("menu_bar")
+        if (x.className === "") {
+          x.className += " responsive"
+        } else {
+          x.className = ""
+        }
+      }
+    </script>
+  </body>
 </html>

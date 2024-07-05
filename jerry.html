@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,46 +12,69 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/estilos.css" />
     <title>Jerry Seinfeld</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div>
-          <a href="index.html"><img src="images/seinfeld_logo2.png" alt="Logo Seinfeld" /></a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-        <nav id="menu_bar" class="navbar">
-          <ul>
-            <li class="navbar_item"><a href="index.html">Inicio</a></li>
-            <li>
-              <a href="personajes.html">Personajes</a>
-              <ul>
-                <li><a href="jerry.html">Jerry</a></li>
-                <li><a href="elaine.html">Elaine</a></li>
-                <li><a href="george.html">George</a></li>
-                <li><a href="kramer.html">Kramer</a></li>
-              </ul>
-            </li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="resenas.html">Reseñas</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
-      <section>
-        <article class="">
-          <div>
-            <!-- <img src="images/light_home_logo.png" alt="Seinfeld logo" /> -->
-            <!-- <h2>La historia del origen de Buzz Lightyear y sus aventuras hasta el infinito y más allá.</h2> -->
-          </div>
-        </article>
-        <footer class="footer">
-          <div>
-            <a href="#"><img src="images/redes/facebook.png" alt="Facebook" /></a>
-            <a href="#"><img src="images/redes/twitter.png" alt="Twitter" /></a>
-            <a href="#"><img src="images/redes/youtube.png" alt="Youtube" /></a>
-            <a href="#"><img src="images/redes/instagram.png" alt="Instagram" /></a>
-          </div>
-          <p>&copy; 2024. Página creada por Paula Brandon</p>
-        </footer>
-</body>
+      <div>
+        <a href="index.html"><img src="images/seinfeld_logo2.png" alt="Logo Seinfeld" /></a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      <nav id="menu_bar" class="navbar">
+        <ul>
+          <li class="navbar_item"><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="personajes.html">Personajes</a>
+            <ul>
+              <li><a href="jerry.html">Jerry</a></li>
+              <li><a href="elaine.html">Elaine</a></li>
+              <li><a href="george.html">George</a></li>
+              <li><a href="kramer.html">Kramer</a></li>
+            </ul>
+          </li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="resenas.html">Reseñas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="personajes">
+      <h1>JERRY SEINFELD</h1>
+      <article>
+        <img src="images/galeria/jerry-pag2.jpg" alt="Kramer y retrato." />
+        <p>
+          Jerry Seinfeld es el personaje principal de la serie y se interpreta a sí mismo. <br />Es un comediante de
+          stand-up que reside en un apartamento en Manhattan, Nueva York. Jerry es conocido por su humor seco y
+          observacional, a menudo sacando chistes de las pequeñas absurdidades de la vida cotidiana. Es un hombre
+          meticuloso, organizado y algo obsesivo con la limpieza y el orden. <br />A lo largo de la serie, Jerry
+          mantiene una serie de relaciones amorosas, aunque ninguna perdura. Su carácter es generalmente racional y
+          calmado, y aunque se ve envuelto en situaciones absurdas, suele mantener la compostura y el ingenio. Jerry es
+          el "centro" del grupo de amigos, actuando muchas veces como el mediador o la voz de la razón entre ellos. Su
+          apartamento se convierte en un punto de encuentro para las situaciones y conversaciones cómicas que suceden en
+          la serie. Además de su carrera como comediante, la serie frecuentemente muestra a Jerry lidiando con las
+          excentricidades de sus amigos y las complicaciones de la vida en Nueva York.
+        </p>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <a href="#"><img src="images/redes/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="images/redes/twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="images/redes/youtube.png" alt="Youtube" /></a>
+        <a href="#"><img src="images/redes/instagram.png" alt="Instagram" /></a>
+      </div>
+      <p>&copy; 2024. Página creada por Paula Brandon</p>
+    </footer>
+    <script type="text/javascript">
+      function myFunction() {
+        var x = document.getElementById("menu_bar")
+        if (x.className === "") {
+          x.className += " responsive"
+        } else {
+          x.className = ""
+        }
+      }
+    </script>
+  </body>
 </html>
